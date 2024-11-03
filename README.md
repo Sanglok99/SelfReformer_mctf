@@ -12,4 +12,9 @@
 
 ## Introduction
 SOD(Salient Object Detection): 이미지 또는 비디오에서 사람의 이목을 끌 확률이 가장 높은 물체(=주요 물체)를 검출하는 기법
+
 ![task-0000000742-bab03b67](https://github.com/user-attachments/assets/b5830c36-4ae8-4768-8e13-beed002bd345)
+(출처: https://paperswithcode.com/task/salient-object-detection)
+
+SelfReformer(https://arxiv.org/pdf/2205.11283)는 Pyramid-ViT 기반의 SOD 모델이다.
+
