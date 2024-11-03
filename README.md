@@ -9,3 +9,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Introduction
+SOD(Salient Object Detection): 이미지 또는 비디오에서 사람의 이목을 끌 확률이 가장 높은 물체(=주요 물체)를 검출하는 기법
+
