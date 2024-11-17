@@ -4,10 +4,12 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
+- [Methods](#methods)
+- [Results](#results)
 - [Installation](#installation)
 
 ## Introduction
+### Research Background
 SOD(Salient Object Detection): 이미지 또는 비디오에서 사람의 이목을 끌 확률이 가장 높은 물체(=주요 물체)를 검출하는 기법
 
 ![task-0000000742-bab03b67](https://github.com/user-attachments/assets/b5830c36-4ae8-4768-8e13-beed002bd345)
@@ -22,7 +24,7 @@ SelfReformer(https://arxiv.org/pdf/2205.11283)는 Pyramid-ViT 기반의 SOD 모�
 
 사용한 경량화 기법은 MCTF(https://github.com/mlvlab/MCTF)기법을 사용한다.
 
-## Features
+## Methods
 ![image](https://github.com/user-attachments/assets/9ead283f-cec3-4690-b864-2c39c392e867)<br/>
 가장 많은 작업을 필요로 하는 Local Context Branch에 중점적으로 경량화 레이어를 삽입하였다.
 
@@ -32,11 +34,13 @@ stage 2: 196 -> 144, R = 53<br/>
 stage 3: 784 -> 576, R = 208<br/>
 stage 4: 3136 -> 2304, R = 832
 
-<Gflops>
+## Results
+
+`<Gflops>`<br/>
 Before MCTF: 21.695107798<br/>
 After MCTF: 16.715654545
 
-<MAE>
+`<MAE>`<br/>
 Before MCTF: 0.0274<br/>
 After MCTF: 0.0402
 
