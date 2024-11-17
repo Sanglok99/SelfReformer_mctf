@@ -27,9 +27,9 @@ SelfReformer(https://arxiv.org/pdf/2205.11283)는 Pyramid-ViT 기반의 SOD 모�
 가장 많은 작업을 필요로 하는 Local Context Branch에 중점적으로 경량화 레이어를 삽입하였다.
 
 R = Reduced tokens
-stage 1: 49 -> 36, R = 13
-stage 2: 196 -> 144, R = 53
-stage 3: 784 -> 576, R = 208
+stage 1: 49 -> 36, R = 13<br/>
+stage 2: 196 -> 144, R = 53<br/>
+stage 3: 784 -> 576, R = 208<br/>
 stage 4: 3136 -> 2304, R = 832
 
 <Gflops>
