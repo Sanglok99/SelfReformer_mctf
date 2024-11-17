@@ -18,3 +18,5 @@ SOD(Salient Object Detection): 이미지 또는 비디오에서 사람의 이목
 
 SelfReformer(https://arxiv.org/pdf/2205.11283)는 Pyramid-ViT 기반의 SOD 모델이다.
 
+![image](https://github.com/user-attachments/assets/ce067397-7665-4c1d-ace3-337cd6551b77)
+(출처: SelfReformer: Self-Refined Network with Transformer for Salient Object Detection https://arxiv.org/pdf/2205.11283)
