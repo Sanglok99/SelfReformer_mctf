@@ -23,21 +23,21 @@ SelfReformer(https://arxiv.org/pdf/2205.11283)는 Pyramid-ViT 기반의 SOD 모�
 사용한 경량화 기법은 MCTF(https://github.com/mlvlab/MCTF)기법을 사용한다.
 
 ## Features
-![image](https://github.com/user-attachments/assets/9ead283f-cec3-4690-b864-2c39c392e867)
+![image](https://github.com/user-attachments/assets/9ead283f-cec3-4690-b864-2c39c392e867)<br/>
 가장 많은 작업을 필요로 하는 Local Context Branch에 중점적으로 경량화 레이어를 삽입하였다.
 
-R = Reduced tokens
+R = Reduced tokens<br/>
 stage 1: 49 -> 36, R = 13<br/>
 stage 2: 196 -> 144, R = 53<br/>
 stage 3: 784 -> 576, R = 208<br/>
 stage 4: 3136 -> 2304, R = 832
 
 <Gflops>
-Before MCTF: 21.695107798
+Before MCTF: 21.695107798<br/>
 After MCTF: 16.715654545
 
 <MAE>
-Before MCTF: 0.0274
+Before MCTF: 0.0274<br/>
 After MCTF: 0.0402
 
 실험 결과 original model에서 큰 정확도 손실 없이 Gflops를 감소시키는 효과를 볼 수 있었다.
